@@ -1,0 +1,240 @@
+{
+ "model": "gru_phys",
+ "config": "class:pedestrian",
+ "train_n": 263528,
+ "classes": [
+  "vehicle",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.95179,
+  "cyclist": 0.01717,
+  "motorcyclist": 0.0047,
+  "bus": 0.02634
+ },
+ "alpha": 0.6000000000000001,
+ "alpha_curve": [
+  0.3589,
+  0.3984,
+  0.4316,
+  0.4624,
+  0.4888,
+  0.5033,
+  0.5052,
+  0.5008,
+  0.4844,
+  0.4623,
+  0.4386
+ ],
+ "epochs": 31,
+ "early_stop_loss": 0.6701193923720891,
+ "device": "cuda",
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.8594,
+   "es_loss": 0.8999,
+   "es_macro_f1": 0.4532
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.7922,
+   "es_loss": 0.8202,
+   "es_macro_f1": 0.4936
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.8849,
+   "es_loss": 0.7848,
+   "es_macro_f1": 0.5136
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.7896,
+   "es_loss": 0.7649,
+   "es_macro_f1": 0.5322
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.7653,
+   "es_loss": 0.7545,
+   "es_macro_f1": 0.5368
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.7419,
+   "es_loss": 0.7471,
+   "es_macro_f1": 0.5481
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.7403,
+   "es_loss": 0.74,
+   "es_macro_f1": 0.5264
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.6775,
+   "es_loss": 0.7333,
+   "es_macro_f1": 0.5297
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.7572,
+   "es_loss": 0.7228,
+   "es_macro_f1": 0.5537
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.5926,
+   "es_loss": 0.7163,
+   "es_macro_f1": 0.551
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.5781,
+   "es_loss": 0.7122,
+   "es_macro_f1": 0.5443
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.6249,
+   "es_loss": 0.713,
+   "es_macro_f1": 0.5573
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.6667,
+   "es_loss": 0.7081,
+   "es_macro_f1": 0.5477
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.7496,
+   "es_loss": 0.6986,
+   "es_macro_f1": 0.5717
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.5725,
+   "es_loss": 0.694,
+   "es_macro_f1": 0.5583
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.6373,
+   "es_loss": 0.6977,
+   "es_macro_f1": 0.5606
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.7183,
+   "es_loss": 0.6914,
+   "es_macro_f1": 0.5691
+  },
+  {
+   "epoch": 18,
+   "train_loss": 0.6194,
+   "es_loss": 0.6926,
+   "es_macro_f1": 0.5656
+  },
+  {
+   "epoch": 19,
+   "train_loss": 0.6639,
+   "es_loss": 0.6933,
+   "es_macro_f1": 0.5679
+  },
+  {
+   "epoch": 20,
+   "train_loss": 0.527,
+   "es_loss": 0.6872,
+   "es_macro_f1": 0.5697
+  },
+  {
+   "epoch": 21,
+   "train_loss": 0.587,
+   "es_loss": 0.6892,
+   "es_macro_f1": 0.5688
+  },
+  {
+   "epoch": 22,
+   "train_loss": 0.6392,
+   "es_loss": 0.6786,
+   "es_macro_f1": 0.567
+  },
+  {
+   "epoch": 23,
+   "train_loss": 0.786,
+   "es_loss": 0.6847,
+   "es_macro_f1": 0.5771
+  },
+  {
+   "epoch": 24,
+   "train_loss": 0.692,
+   "es_loss": 0.6809,
+   "es_macro_f1": 0.5749
+  },
+  {
+   "epoch": 25,
+   "train_loss": 0.6046,
+   "es_loss": 0.6867,
+   "es_macro_f1": 0.5908
+  },
+  {
+   "epoch": 26,
+   "train_loss": 0.5463,
+   "es_loss": 0.6701,
+   "es_macro_f1": 0.5809
+  },
+  {
+   "epoch": 27,
+   "train_loss": 0.574,
+   "es_loss": 0.68,
+   "es_macro_f1": 0.5732
+  },
+  {
+   "epoch": 28,
+   "train_loss": 0.619,
+   "es_loss": 0.6814,
+   "es_macro_f1": 0.6041
+  },
+  {
+   "epoch": 29,
+   "train_loss": 0.4649,
+   "es_loss": 0.6795,
+   "es_macro_f1": 0.5895
+  },
+  {
+   "epoch": 30,
+   "train_loss": 0.7244,
+   "es_loss": 0.6929,
+   "es_macro_f1": 0.6018
+  },
+  {
+   "epoch": 31,
+   "train_loss": 0.4632,
+   "es_loss": 0.6903,
+   "es_macro_f1": 0.596
+  }
+ ],
+ "val": {
+  "n": 210690,
+  "accuracy": 0.9345768664863069,
+  "macro_f1": 0.5124457668744353,
+  "cyclist_as_motorcyclist": 0.018889202142655766,
+  "motorcyclist_as_cyclist": 0.10826771653543307,
+  "bus_as_vehicle": 0.639444744907157,
+  "vehicle_as_bus": 0.030012962409013858
+ },
+ "novelty": {
+  "novelty_auroc": 0.3892403562445435,
+  "n_novel": 24271,
+  "novel_as_vehicle": 0.09884223970994191,
+  "novel_as_cyclist": 0.899592105805282,
+  "novel_as_motorcyclist": 0.0007416258085781386,
+  "novel_as_bus": 0.0008240286761979317
+ },
+ "seconds": 317
+}

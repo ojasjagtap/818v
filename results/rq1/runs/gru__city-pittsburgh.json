@@ -1,0 +1,213 @@
+{
+ "model": "gru",
+ "config": "city:pittsburgh",
+ "train_n": 377506,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.86602,
+  "pedestrian": 0.09353,
+  "cyclist": 0.01595,
+  "motorcyclist": 0.00489,
+  "bus": 0.01961
+ },
+ "alpha": 0.7000000000000001,
+ "alpha_curve": [
+  0.4836,
+  0.5112,
+  0.5372,
+  0.562,
+  0.5853,
+  0.6064,
+  0.6228,
+  0.6252,
+  0.6112,
+  0.5844,
+  0.5618
+ ],
+ "epochs": 26,
+ "early_stop_loss": 0.6226456232374237,
+ "device": "cuda",
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0963,
+   "es_loss": 1.0691,
+   "es_macro_f1": 0.4341
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.9691,
+   "es_loss": 0.9436,
+   "es_macro_f1": 0.4736
+  },
+  {
+   "epoch": 3,
+   "train_loss": 1.0749,
+   "es_loss": 0.8946,
+   "es_macro_f1": 0.4917
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.964,
+   "es_loss": 0.8394,
+   "es_macro_f1": 0.5094
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.9592,
+   "es_loss": 0.8362,
+   "es_macro_f1": 0.5067
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.7731,
+   "es_loss": 0.8014,
+   "es_macro_f1": 0.5267
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.7853,
+   "es_loss": 0.7971,
+   "es_macro_f1": 0.533
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.8137,
+   "es_loss": 0.7829,
+   "es_macro_f1": 0.5577
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.7985,
+   "es_loss": 0.7465,
+   "es_macro_f1": 0.5829
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.77,
+   "es_loss": 0.708,
+   "es_macro_f1": 0.5849
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.7013,
+   "es_loss": 0.6912,
+   "es_macro_f1": 0.598
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.6716,
+   "es_loss": 0.688,
+   "es_macro_f1": 0.5825
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.6629,
+   "es_loss": 0.6672,
+   "es_macro_f1": 0.614
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.7946,
+   "es_loss": 0.6546,
+   "es_macro_f1": 0.6301
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.6166,
+   "es_loss": 0.6635,
+   "es_macro_f1": 0.6228
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.592,
+   "es_loss": 0.6398,
+   "es_macro_f1": 0.6269
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.5882,
+   "es_loss": 0.6347,
+   "es_macro_f1": 0.6432
+  },
+  {
+   "epoch": 18,
+   "train_loss": 0.5788,
+   "es_loss": 0.6555,
+   "es_macro_f1": 0.6202
+  },
+  {
+   "epoch": 19,
+   "train_loss": 0.513,
+   "es_loss": 0.6237,
+   "es_macro_f1": 0.6289
+  },
+  {
+   "epoch": 20,
+   "train_loss": 0.5749,
+   "es_loss": 0.6303,
+   "es_macro_f1": 0.6349
+  },
+  {
+   "epoch": 21,
+   "train_loss": 0.5333,
+   "es_loss": 0.6226,
+   "es_macro_f1": 0.6375
+  },
+  {
+   "epoch": 22,
+   "train_loss": 0.5395,
+   "es_loss": 0.6425,
+   "es_macro_f1": 0.6511
+  },
+  {
+   "epoch": 23,
+   "train_loss": 0.6277,
+   "es_loss": 0.6301,
+   "es_macro_f1": 0.6295
+  },
+  {
+   "epoch": 24,
+   "train_loss": 0.5134,
+   "es_loss": 0.6273,
+   "es_macro_f1": 0.6248
+  },
+  {
+   "epoch": 25,
+   "train_loss": 0.6009,
+   "es_loss": 0.6434,
+   "es_macro_f1": 0.6329
+  },
+  {
+   "epoch": 26,
+   "train_loss": 0.5191,
+   "es_loss": 0.6365,
+   "es_macro_f1": 0.6405
+  }
+ ],
+ "id": {
+  "n": 192748,
+  "accuracy": 0.9439631020814743,
+  "macro_f1": 0.6217029014915669,
+  "cyclist_as_motorcyclist": 0.036,
+  "motorcyclist_as_cyclist": 0.11396303901437371,
+  "bus_as_vehicle": 0.766744852749544,
+  "vehicle_as_bus": 0.015532681358990138
+ },
+ "ood": {
+  "n": 378313,
+  "accuracy": 0.9274648241006785,
+  "macro_f1": 0.557267488615205,
+  "cyclist_as_motorcyclist": 0.030618621120599876,
+  "motorcyclist_as_cyclist": 0.10526315789473684,
+  "bus_as_vehicle": 0.7402309058614565,
+  "vehicle_as_bus": 0.018258672365361613
+ },
+ "seconds": 493
+}

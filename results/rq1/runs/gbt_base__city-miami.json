@@ -1,0 +1,53 @@
+{
+ "model": "gbt_base",
+ "config": "city:miami",
+ "train_n": 367143,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.86655,
+  "pedestrian": 0.09442,
+  "cyclist": 0.01295,
+  "motorcyclist": 0.00126,
+  "bus": 0.02482
+ },
+ "alpha": 0.4,
+ "alpha_curve": [
+  0.3551,
+  0.401,
+  0.4261,
+  0.4453,
+  0.4478,
+  0.4453,
+  0.4392,
+  0.4283,
+  0.413,
+  0.3976,
+  0.3896
+ ],
+ "n_iter": 64,
+ "id": {
+  "n": 165831,
+  "accuracy": 0.9019061574735725,
+  "macro_f1": 0.4490935424723336,
+  "cyclist_as_motorcyclist": 0.0,
+  "motorcyclist_as_cyclist": 0.03571428571428571,
+  "bus_as_vehicle": 0.7726717184062576,
+  "vehicle_as_bus": 0.034644409667883846
+ },
+ "ood": {
+  "n": 636734,
+  "accuracy": 0.8727506305615846,
+  "macro_f1": 0.4478601579484366,
+  "cyclist_as_motorcyclist": 7.5046904315197e-05,
+  "motorcyclist_as_cyclist": 0.0537649542575651,
+  "bus_as_vehicle": 0.789585386189646,
+  "vehicle_as_bus": 0.03139172743785594
+ },
+ "seconds": 7
+}

@@ -1,0 +1,33 @@
+{
+ "model": "fusion",
+ "config": "city:austin",
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "fused": [
+  "gru",
+  "gbt_phys"
+ ],
+ "id": {
+  "n": 186513,
+  "accuracy": 0.9368891176486358,
+  "macro_f1": 0.6338280889632545,
+  "cyclist_as_motorcyclist": 0.025887573964497042,
+  "motorcyclist_as_cyclist": 0.08648648648648649,
+  "bus_as_vehicle": 0.6819148936170213,
+  "vehicle_as_bus": 0.024593941153819448
+ },
+ "ood": {
+  "n": 432570,
+  "accuracy": 0.9456827796657189,
+  "macro_f1": 0.5838946311945385,
+  "cyclist_as_motorcyclist": 0.031770237641377555,
+  "motorcyclist_as_cyclist": 0.06298200514138817,
+  "bus_as_vehicle": 0.6627562028047465,
+  "vehicle_as_bus": 0.01988546356372853
+ }
+}

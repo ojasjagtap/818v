@@ -1,0 +1,67 @@
+{
+ "model": "gbt_phys",
+ "config": "main",
+ "train_n": 465438,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.85185,
+  "pedestrian": 0.105,
+  "cyclist": 0.01537,
+  "motorcyclist": 0.00421,
+  "bus": 0.02358
+ },
+ "alpha": 0.5,
+ "alpha_curve": [
+  0.4318,
+  0.4609,
+  0.4883,
+  0.5127,
+  0.5297,
+  0.5367,
+  0.5304,
+  0.515,
+  0.4853,
+  0.458,
+  0.4438
+ ],
+ "n_iter": 215,
+ "val": {
+  "n": 234961,
+  "accuracy": 0.914807138205915,
+  "macro_f1": 0.5391727123400647,
+  "cyclist_as_motorcyclist": 0.013532562729066817,
+  "motorcyclist_as_cyclist": 0.08366141732283465,
+  "bus_as_vehicle": 0.5851811790156841,
+  "vehicle_as_bus": 0.04097118356765381
+ },
+ "importance": {
+  "wheelbase_slip": 0.02988,
+  "wheelbase_slip_se": 0.00303,
+  "wheelbase_turn_bound": 0.18848,
+  "lat_acc_p95": 0.05756,
+  "slip_p50": 0.0233,
+  "slip_p95": 0.02257,
+  "slip_frac_30deg": 0.0063,
+  "reverse_frac": 0.00308,
+  "pred_rmse_point": 0.05769,
+  "pred_rmse_bicycle": 0.0201,
+  "pred_rmse_ratio": 0.0444,
+  "acc_lat_resid_ratio": 0.04835,
+  "acc_lon_p5": 0.01731,
+  "acc_lon_p50": 0.08662,
+  "acc_lon_p95": 0.01875,
+  "jerk_rms": 0.03572,
+  "jerk_p95": 0.02965,
+  "gait_speed_frac": 0.00703,
+  "gait_speed_peak": 0.00115,
+  "gait_vlat_frac": 0.00813,
+  "gait_vlat_peak": 0.00119
+ },
+ "seconds": 145
+}

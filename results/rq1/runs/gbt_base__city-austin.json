@@ -1,0 +1,53 @@
+{
+ "model": "gbt_base",
+ "config": "city:austin",
+ "train_n": 417335,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.84765,
+  "pedestrian": 0.10764,
+  "cyclist": 0.01464,
+  "motorcyclist": 0.00482,
+  "bus": 0.02524
+ },
+ "alpha": 0.5,
+ "alpha_curve": [
+  0.339,
+  0.3993,
+  0.4299,
+  0.4461,
+  0.4522,
+  0.4532,
+  0.4427,
+  0.431,
+  0.4214,
+  0.4085,
+  0.3914
+ ],
+ "n_iter": 90,
+ "id": {
+  "n": 186513,
+  "accuracy": 0.9172550974999062,
+  "macro_f1": 0.45011238386434627,
+  "cyclist_as_motorcyclist": 0.0,
+  "motorcyclist_as_cyclist": 0.02810810810810811,
+  "bus_as_vehicle": 0.8974468085106383,
+  "vehicle_as_bus": 0.012334846256304722
+ },
+ "ood": {
+  "n": 432570,
+  "accuracy": 0.9334697274429572,
+  "macro_f1": 0.4519385449488739,
+  "cyclist_as_motorcyclist": 0.0,
+  "motorcyclist_as_cyclist": 0.02699228791773779,
+  "bus_as_vehicle": 0.8853829557713053,
+  "vehicle_as_bus": 0.010271538148194493
+ },
+ "seconds": 8
+}

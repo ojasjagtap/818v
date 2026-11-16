@@ -1,0 +1,29 @@
+{
+ "model": "fusion",
+ "config": "class:bus",
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist"
+ ],
+ "fused": [
+  "gru",
+  "gbt_phys"
+ ],
+ "val": {
+  "n": 229414,
+  "accuracy": 0.9727087274534248,
+  "macro_f1": 0.6536122442296403,
+  "cyclist_as_motorcyclist": 0.00845785170566676,
+  "motorcyclist_as_cyclist": 0.10039370078740158
+ },
+ "novelty": {
+  "novelty_auroc": 0.7406900534780356,
+  "n_novel": 5547,
+  "novel_as_vehicle": 0.9974761132143501,
+  "novel_as_pedestrian": 0.001442221020371372,
+  "novel_as_cyclist": 0.001081665765278529,
+  "novel_as_motorcyclist": 0.0
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "model": "gru_phys",
+ "config": "city:miami",
+ "train_n": 348879,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.86655,
+  "pedestrian": 0.09442,
+  "cyclist": 0.01295,
+  "motorcyclist": 0.00126,
+  "bus": 0.02482
+ },
+ "alpha": 0.6000000000000001,
+ "alpha_curve": [
+  0.4003,
+  0.4393,
+  0.4666,
+  0.485,
+  0.5012,
+  0.5047,
+  0.5049,
+  0.4906,
+  0.4715,
+  0.4525,
+  0.4325
+ ],
+ "epochs": 16,
+ "early_stop_loss": 0.8245279450610808,
+ "device": "cuda",
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0139,
+   "es_loss": 0.9809,
+   "es_macro_f1": 0.4621
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.815,
+   "es_loss": 0.917,
+   "es_macro_f1": 0.4548
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.9779,
+   "es_loss": 0.8845,
+   "es_macro_f1": 0.4782
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.8867,
+   "es_loss": 0.8848,
+   "es_macro_f1": 0.4809
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.8458,
+   "es_loss": 0.8695,
+   "es_macro_f1": 0.5016
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.8807,
+   "es_loss": 0.867,
+   "es_macro_f1": 0.4878
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.8017,
+   "es_loss": 0.8627,
+   "es_macro_f1": 0.4687
+  },
+  {
+   "epoch": 8,
+   "train_loss": 1.0261,
+   "es_loss": 0.8617,
+   "es_macro_f1": 0.5026
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.7961,
+   "es_loss": 0.8519,
+   "es_macro_f1": 0.4765
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.995,
+   "es_loss": 0.8611,
+   "es_macro_f1": 0.4896
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.7609,
+   "es_loss": 0.8245,
+   "es_macro_f1": 0.5148
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.6868,
+   "es_loss": 0.85,
+   "es_macro_f1": 0.5083
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.8596,
+   "es_loss": 0.8517,
+   "es_macro_f1": 0.5065
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.9094,
+   "es_loss": 0.8293,
+   "es_macro_f1": 0.5019
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.8436,
+   "es_loss": 0.8303,
+   "es_macro_f1": 0.4952
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.8785,
+   "es_loss": 0.835,
+   "es_macro_f1": 0.5077
+  }
+ ],
+ "id": {
+  "n": 165831,
+  "accuracy": 0.9339990713437174,
+  "macro_f1": 0.5053250869926571,
+  "cyclist_as_motorcyclist": 0.002325581395348837,
+  "motorcyclist_as_cyclist": 0.049107142857142856,
+  "bus_as_vehicle": 0.7298948912246395,
+  "vehicle_as_bus": 0.0220622500434707
+ },
+ "ood": {
+  "n": 636734,
+  "accuracy": 0.9190666746239403,
+  "macro_f1": 0.5125439426205298,
+  "cyclist_as_motorcyclist": 0.000450281425891182,
+  "motorcyclist_as_cyclist": 0.0776917663617171,
+  "bus_as_vehicle": 0.7497157583567043,
+  "vehicle_as_bus": 0.016908407353217896
+ },
+ "seconds": 225
+}

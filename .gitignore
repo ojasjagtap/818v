@@ -1,0 +1,14 @@
+venv/
+data/
+results/**
+!results/**/
+!results/**/*.png
+!results/**/*.csv
+!results/rq1/runs/*.json
+!results/rq2/example_crops.npz
+logs/
+.cache/
+bin/
+__pycache__/
+.DS_Store
+Recognizing_Road_Users_by_Motion_Summary.docx

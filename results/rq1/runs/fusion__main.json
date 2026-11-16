@@ -1,0 +1,24 @@
+{
+ "model": "fusion",
+ "config": "main",
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "fused": [
+  "gru",
+  "gbt_phys"
+ ],
+ "val": {
+  "n": 234961,
+  "accuracy": 0.9378364920135682,
+  "macro_f1": 0.6313343143613215,
+  "cyclist_as_motorcyclist": 0.017197631801522412,
+  "motorcyclist_as_cyclist": 0.12303149606299213,
+  "bus_as_vehicle": 0.6614386154678205,
+  "vehicle_as_bus": 0.025271712035098214
+ }
+}

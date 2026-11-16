@@ -1,0 +1,48 @@
+{
+ "model": "gbt_phys_clean",
+ "config": "class:bus",
+ "train_n": 423192,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist"
+ ],
+ "prior": {
+  "vehicle": 0.87242,
+  "pedestrian": 0.10753,
+  "cyclist": 0.01574,
+  "motorcyclist": 0.00431
+ },
+ "alpha": 0.5,
+ "alpha_curve": [
+  0.4988,
+  0.5264,
+  0.5527,
+  0.5764,
+  0.5912,
+  0.5924,
+  0.5863,
+  0.5772,
+  0.5661,
+  0.5534,
+  0.5422
+ ],
+ "n_iter": 162,
+ "val": {
+  "n": 229414,
+  "accuracy": 0.9586119417297986,
+  "macro_f1": 0.5874235611347122,
+  "cyclist_as_motorcyclist": 0.01099520721736679,
+  "motorcyclist_as_cyclist": 0.08661417322834646
+ },
+ "novelty": {
+  "novelty_auroc": 0.6285322312224721,
+  "n_novel": 5547,
+  "novel_as_vehicle": 0.9913466738777718,
+  "novel_as_pedestrian": 0.005047773571299802,
+  "novel_as_cyclist": 0.0034252749233820083,
+  "novel_as_motorcyclist": 0.0001802776275464215
+ },
+ "seconds": 21
+}

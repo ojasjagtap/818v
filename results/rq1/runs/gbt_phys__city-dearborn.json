@@ -1,0 +1,53 @@
+{
+ "model": "gbt_phys",
+ "config": "city:dearborn",
+ "train_n": 453481,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.84349,
+  "pedestrian": 0.11123,
+  "cyclist": 0.01646,
+  "motorcyclist": 0.00455,
+  "bus": 0.02427
+ },
+ "alpha": 0.5,
+ "alpha_curve": [
+  0.4343,
+  0.4651,
+  0.4936,
+  0.5205,
+  0.5372,
+  0.5417,
+  0.532,
+  0.5147,
+  0.4876,
+  0.46,
+  0.4438
+ ],
+ "n_iter": 186,
+ "id": {
+  "n": 212271,
+  "accuracy": 0.9128189908183407,
+  "macro_f1": 0.5397799484586787,
+  "cyclist_as_motorcyclist": 0.015231400117164616,
+  "motorcyclist_as_cyclist": 0.0875251509054326,
+  "bus_as_vehicle": 0.5766309639727362,
+  "vehicle_as_bus": 0.0412285586990421
+ },
+ "ood": {
+  "n": 203977,
+  "accuracy": 0.9212852429440574,
+  "macro_f1": 0.47571420037758444,
+  "cyclist_as_motorcyclist": 0.011406844106463879,
+  "motorcyclist_as_cyclist": 0.015151515151515152,
+  "bus_as_vehicle": 0.6194968553459119,
+  "vehicle_as_bus": 0.04964841814520805
+ },
+ "seconds": 17
+}

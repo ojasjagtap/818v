@@ -1,0 +1,33 @@
+{
+ "model": "fusion",
+ "config": "city:washington-dc",
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "fused": [
+  "gru",
+  "gbt_phys"
+ ],
+ "id": {
+  "n": 193601,
+  "accuracy": 0.9378154038460546,
+  "macro_f1": 0.640622736072489,
+  "cyclist_as_motorcyclist": 0.02298116820938398,
+  "motorcyclist_as_cyclist": 0.10647181628392484,
+  "bus_as_vehicle": 0.6582056892778994,
+  "vehicle_as_bus": 0.023862100182895873
+ },
+ "ood": {
+  "n": 365387,
+  "accuracy": 0.9378850369608114,
+  "macro_f1": 0.5804762104322019,
+  "cyclist_as_motorcyclist": 0.012342366514623022,
+  "motorcyclist_as_cyclist": 0.10096153846153846,
+  "bus_as_vehicle": 0.6654533045159823,
+  "vehicle_as_bus": 0.030938371107459662
+ }
+}

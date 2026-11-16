@@ -1,0 +1,256 @@
+{
+ "model": "gru_phys",
+ "config": "class:motorcyclist",
+ "train_n": 435137,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.85545,
+  "pedestrian": 0.10544,
+  "cyclist": 0.01543,
+  "bus": 0.02368
+ },
+ "alpha": 0.6000000000000001,
+ "alpha_curve": [
+  0.5699,
+  0.5931,
+  0.614,
+  0.6339,
+  0.6506,
+  0.6618,
+  0.6648,
+  0.6587,
+  0.6474,
+  0.6238,
+  0.5996
+ ],
+ "epochs": 34,
+ "early_stop_loss": 0.5305961871711627,
+ "device": "cuda",
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.7008,
+   "es_loss": 0.6517,
+   "es_macro_f1": 0.6834
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6828,
+   "es_loss": 0.6126,
+   "es_macro_f1": 0.6777
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.5842,
+   "es_loss": 0.597,
+   "es_macro_f1": 0.6775
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.603,
+   "es_loss": 0.5942,
+   "es_macro_f1": 0.6664
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.5726,
+   "es_loss": 0.5856,
+   "es_macro_f1": 0.7126
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.5965,
+   "es_loss": 0.5786,
+   "es_macro_f1": 0.6902
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.5594,
+   "es_loss": 0.5766,
+   "es_macro_f1": 0.6789
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.6024,
+   "es_loss": 0.5699,
+   "es_macro_f1": 0.7014
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.6252,
+   "es_loss": 0.5686,
+   "es_macro_f1": 0.7013
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.5876,
+   "es_loss": 0.5629,
+   "es_macro_f1": 0.7074
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.5303,
+   "es_loss": 0.5592,
+   "es_macro_f1": 0.7071
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.5275,
+   "es_loss": 0.5519,
+   "es_macro_f1": 0.6995
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.5514,
+   "es_loss": 0.5524,
+   "es_macro_f1": 0.7133
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.5383,
+   "es_loss": 0.55,
+   "es_macro_f1": 0.7054
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.553,
+   "es_loss": 0.5549,
+   "es_macro_f1": 0.7245
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.5303,
+   "es_loss": 0.5487,
+   "es_macro_f1": 0.7042
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.5527,
+   "es_loss": 0.5439,
+   "es_macro_f1": 0.7196
+  },
+  {
+   "epoch": 18,
+   "train_loss": 0.5457,
+   "es_loss": 0.5474,
+   "es_macro_f1": 0.7202
+  },
+  {
+   "epoch": 19,
+   "train_loss": 0.5095,
+   "es_loss": 0.5439,
+   "es_macro_f1": 0.7196
+  },
+  {
+   "epoch": 20,
+   "train_loss": 0.4811,
+   "es_loss": 0.5399,
+   "es_macro_f1": 0.7167
+  },
+  {
+   "epoch": 21,
+   "train_loss": 0.586,
+   "es_loss": 0.541,
+   "es_macro_f1": 0.7167
+  },
+  {
+   "epoch": 22,
+   "train_loss": 0.5337,
+   "es_loss": 0.5353,
+   "es_macro_f1": 0.7125
+  },
+  {
+   "epoch": 23,
+   "train_loss": 0.5199,
+   "es_loss": 0.5429,
+   "es_macro_f1": 0.7184
+  },
+  {
+   "epoch": 24,
+   "train_loss": 0.4256,
+   "es_loss": 0.5433,
+   "es_macro_f1": 0.7191
+  },
+  {
+   "epoch": 25,
+   "train_loss": 0.4653,
+   "es_loss": 0.5382,
+   "es_macro_f1": 0.7195
+  },
+  {
+   "epoch": 26,
+   "train_loss": 0.498,
+   "es_loss": 0.5328,
+   "es_macro_f1": 0.7244
+  },
+  {
+   "epoch": 27,
+   "train_loss": 0.4502,
+   "es_loss": 0.539,
+   "es_macro_f1": 0.7345
+  },
+  {
+   "epoch": 28,
+   "train_loss": 0.4841,
+   "es_loss": 0.538,
+   "es_macro_f1": 0.7217
+  },
+  {
+   "epoch": 29,
+   "train_loss": 0.4512,
+   "es_loss": 0.5306,
+   "es_macro_f1": 0.7263
+  },
+  {
+   "epoch": 30,
+   "train_loss": 0.4892,
+   "es_loss": 0.5463,
+   "es_macro_f1": 0.7293
+  },
+  {
+   "epoch": 31,
+   "train_loss": 0.4517,
+   "es_loss": 0.5436,
+   "es_macro_f1": 0.7197
+  },
+  {
+   "epoch": 32,
+   "train_loss": 0.4466,
+   "es_loss": 0.54,
+   "es_macro_f1": 0.7252
+  },
+  {
+   "epoch": 33,
+   "train_loss": 0.4635,
+   "es_loss": 0.5489,
+   "es_macro_f1": 0.7301
+  },
+  {
+   "epoch": 34,
+   "train_loss": 0.4452,
+   "es_loss": 0.5509,
+   "es_macro_f1": 0.7312
+  }
+ ],
+ "val": {
+  "n": 233945,
+  "accuracy": 0.9344760520635192,
+  "macro_f1": 0.6684477291875819,
+  "bus_as_vehicle": 0.6499008473048494,
+  "vehicle_as_bus": 0.026607837271911457
+ },
+ "novelty": {
+  "novelty_auroc": 0.5649892367359379,
+  "n_novel": 1016,
+  "novel_as_vehicle": 0.7942913385826772,
+  "novel_as_pedestrian": 0.03051181102362205,
+  "novel_as_cyclist": 0.16929133858267717,
+  "novel_as_bus": 0.005905511811023622
+ },
+ "seconds": 551
+}

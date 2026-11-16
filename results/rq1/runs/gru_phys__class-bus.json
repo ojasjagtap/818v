@@ -1,0 +1,232 @@
+{
+ "model": "gru_phys",
+ "config": "class:bus",
+ "train_n": 402173,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist"
+ ],
+ "prior": {
+  "vehicle": 0.87242,
+  "pedestrian": 0.10753,
+  "cyclist": 0.01574,
+  "motorcyclist": 0.00431
+ },
+ "alpha": 0.6000000000000001,
+ "alpha_curve": [
+  0.5315,
+  0.5562,
+  0.5783,
+  0.5983,
+  0.6088,
+  0.619,
+  0.6227,
+  0.6148,
+  0.6008,
+  0.5886,
+  0.5753
+ ],
+ "epochs": 30,
+ "early_stop_loss": 0.6569358555158645,
+ "device": "cuda",
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.7591,
+   "es_loss": 0.7877,
+   "es_macro_f1": 0.5382
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.789,
+   "es_loss": 0.7495,
+   "es_macro_f1": 0.5626
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.7621,
+   "es_loss": 0.7309,
+   "es_macro_f1": 0.5675
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.7276,
+   "es_loss": 0.7129,
+   "es_macro_f1": 0.5783
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.6395,
+   "es_loss": 0.7085,
+   "es_macro_f1": 0.5843
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.6662,
+   "es_loss": 0.6963,
+   "es_macro_f1": 0.5956
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.7258,
+   "es_loss": 0.6882,
+   "es_macro_f1": 0.5954
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.5995,
+   "es_loss": 0.6959,
+   "es_macro_f1": 0.5827
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.7931,
+   "es_loss": 0.6919,
+   "es_macro_f1": 0.6028
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.6392,
+   "es_loss": 0.6824,
+   "es_macro_f1": 0.5818
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.7615,
+   "es_loss": 0.6763,
+   "es_macro_f1": 0.6123
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.6743,
+   "es_loss": 0.6787,
+   "es_macro_f1": 0.5985
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.6489,
+   "es_loss": 0.6839,
+   "es_macro_f1": 0.5716
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.5421,
+   "es_loss": 0.6625,
+   "es_macro_f1": 0.5979
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.5296,
+   "es_loss": 0.6644,
+   "es_macro_f1": 0.5877
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.5819,
+   "es_loss": 0.6643,
+   "es_macro_f1": 0.5945
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.5755,
+   "es_loss": 0.6595,
+   "es_macro_f1": 0.6026
+  },
+  {
+   "epoch": 18,
+   "train_loss": 0.5828,
+   "es_loss": 0.6603,
+   "es_macro_f1": 0.6128
+  },
+  {
+   "epoch": 19,
+   "train_loss": 0.647,
+   "es_loss": 0.66,
+   "es_macro_f1": 0.6156
+  },
+  {
+   "epoch": 20,
+   "train_loss": 0.6056,
+   "es_loss": 0.6732,
+   "es_macro_f1": 0.5902
+  },
+  {
+   "epoch": 21,
+   "train_loss": 0.541,
+   "es_loss": 0.6588,
+   "es_macro_f1": 0.6199
+  },
+  {
+   "epoch": 22,
+   "train_loss": 0.5679,
+   "es_loss": 0.6626,
+   "es_macro_f1": 0.6121
+  },
+  {
+   "epoch": 23,
+   "train_loss": 0.5959,
+   "es_loss": 0.6691,
+   "es_macro_f1": 0.5907
+  },
+  {
+   "epoch": 24,
+   "train_loss": 0.531,
+   "es_loss": 0.6656,
+   "es_macro_f1": 0.6307
+  },
+  {
+   "epoch": 25,
+   "train_loss": 0.6765,
+   "es_loss": 0.6569,
+   "es_macro_f1": 0.6237
+  },
+  {
+   "epoch": 26,
+   "train_loss": 0.5706,
+   "es_loss": 0.6663,
+   "es_macro_f1": 0.6104
+  },
+  {
+   "epoch": 27,
+   "train_loss": 0.5993,
+   "es_loss": 0.6679,
+   "es_macro_f1": 0.6247
+  },
+  {
+   "epoch": 28,
+   "train_loss": 0.4362,
+   "es_loss": 0.6763,
+   "es_macro_f1": 0.6128
+  },
+  {
+   "epoch": 29,
+   "train_loss": 0.6274,
+   "es_loss": 0.6689,
+   "es_macro_f1": 0.6187
+  },
+  {
+   "epoch": 30,
+   "train_loss": 0.563,
+   "es_loss": 0.6922,
+   "es_macro_f1": 0.613
+  }
+ ],
+ "val": {
+  "n": 229414,
+  "accuracy": 0.9666105817430497,
+  "macro_f1": 0.6150321719897174,
+  "cyclist_as_motorcyclist": 0.014942204680011277,
+  "motorcyclist_as_cyclist": 0.07283464566929133
+ },
+ "novelty": {
+  "novelty_auroc": 0.7249413425836171,
+  "n_novel": 5547,
+  "novel_as_vehicle": 0.9899044528574004,
+  "novel_as_pedestrian": 0.004687218316206959,
+  "novel_as_cyclist": 0.0034252749233820083,
+  "novel_as_motorcyclist": 0.0019830539030106366
+ },
+ "seconds": 451
+}

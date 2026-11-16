@@ -1,0 +1,53 @@
+{
+ "model": "gbt_base",
+ "config": "city:palo-alto",
+ "train_n": 459242,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.84791,
+  "pedestrian": 0.10831,
+  "cyclist": 0.01526,
+  "motorcyclist": 0.00438,
+  "bus": 0.02414
+ },
+ "alpha": 0.4,
+ "alpha_curve": [
+  0.3397,
+  0.399,
+  0.4291,
+  0.4419,
+  0.4496,
+  0.4479,
+  0.4401,
+  0.4288,
+  0.4154,
+  0.401,
+  0.3891
+ ],
+ "n_iter": 100,
+ "id": {
+  "n": 223841,
+  "accuracy": 0.8949075459812992,
+  "macro_f1": 0.45108335000025324,
+  "cyclist_as_motorcyclist": 0.00029994001199760045,
+  "motorcyclist_as_cyclist": 0.041791044776119404,
+  "bus_as_vehicle": 0.7765642354683451,
+  "vehicle_as_bus": 0.0333505008356019
+ },
+ "ood": {
+  "n": 102544,
+  "accuracy": 0.9350035106880948,
+  "macro_f1": 0.4814841361055793,
+  "cyclist_as_motorcyclist": 0.0,
+  "motorcyclist_as_cyclist": 0.08536585365853659,
+  "bus_as_vehicle": 0.8136117556071152,
+  "vehicle_as_bus": 0.023871286192881674
+ },
+ "seconds": 13
+}

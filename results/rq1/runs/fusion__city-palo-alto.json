@@ -1,0 +1,33 @@
+{
+ "model": "fusion",
+ "config": "city:palo-alto",
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "fused": [
+  "gru",
+  "gbt_phys"
+ ],
+ "id": {
+  "n": 223841,
+  "accuracy": 0.9371294803007492,
+  "macro_f1": 0.6246708313894191,
+  "cyclist_as_motorcyclist": 0.021295740851829635,
+  "motorcyclist_as_cyclist": 0.10746268656716418,
+  "bus_as_vehicle": 0.6775268419104036,
+  "vehicle_as_bus": 0.024532010384587088
+ },
+ "ood": {
+  "n": 102544,
+  "accuracy": 0.9618797784365736,
+  "macro_f1": 0.5860737462901862,
+  "cyclist_as_motorcyclist": 0.02541436464088398,
+  "motorcyclist_as_cyclist": 0.08536585365853659,
+  "bus_as_vehicle": 0.7424593967517401,
+  "vehicle_as_bus": 0.01556412060618154
+ }
+}

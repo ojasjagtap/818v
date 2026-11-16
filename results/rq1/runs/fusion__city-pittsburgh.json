@@ -1,0 +1,33 @@
+{
+ "model": "fusion",
+ "config": "city:pittsburgh",
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "fused": [
+  "gru",
+  "gbt_phys"
+ ],
+ "id": {
+  "n": 192748,
+  "accuracy": 0.9421368833917861,
+  "macro_f1": 0.6220836543142565,
+  "cyclist_as_motorcyclist": 0.024333333333333332,
+  "motorcyclist_as_cyclist": 0.09137577002053388,
+  "bus_as_vehicle": 0.7065415689340631,
+  "vehicle_as_bus": 0.021231980596096517
+ },
+ "ood": {
+  "n": 378313,
+  "accuracy": 0.9264920845966171,
+  "macro_f1": 0.5674990091620451,
+  "cyclist_as_motorcyclist": 0.020204124140804,
+  "motorcyclist_as_cyclist": 0.08771929824561403,
+  "bus_as_vehicle": 0.688530829738645,
+  "vehicle_as_bus": 0.02505947340833031
+ }
+}

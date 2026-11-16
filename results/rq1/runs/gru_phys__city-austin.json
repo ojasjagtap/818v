@@ -1,0 +1,231 @@
+{
+ "model": "gru_phys",
+ "config": "city:austin",
+ "train_n": 396637,
+ "classes": [
+  "vehicle",
+  "pedestrian",
+  "cyclist",
+  "motorcyclist",
+  "bus"
+ ],
+ "prior": {
+  "vehicle": 0.84765,
+  "pedestrian": 0.10764,
+  "cyclist": 0.01464,
+  "motorcyclist": 0.00482,
+  "bus": 0.02524
+ },
+ "alpha": 0.5,
+ "alpha_curve": [
+  0.443,
+  0.4715,
+  0.4984,
+  0.5224,
+  0.5447,
+  0.5506,
+  0.5433,
+  0.5307,
+  0.503,
+  0.4838,
+  0.4738
+ ],
+ "epochs": 29,
+ "early_stop_loss": 0.7340942751913212,
+ "device": "cuda",
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.9337,
+   "es_loss": 0.9161,
+   "es_macro_f1": 0.5173
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.8035,
+   "es_loss": 0.8465,
+   "es_macro_f1": 0.504
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.922,
+   "es_loss": 0.8245,
+   "es_macro_f1": 0.5376
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.8383,
+   "es_loss": 0.8195,
+   "es_macro_f1": 0.5075
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.6411,
+   "es_loss": 0.7962,
+   "es_macro_f1": 0.525
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.8571,
+   "es_loss": 0.7969,
+   "es_macro_f1": 0.5547
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.8028,
+   "es_loss": 0.776,
+   "es_macro_f1": 0.534
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.6096,
+   "es_loss": 0.7728,
+   "es_macro_f1": 0.539
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.9986,
+   "es_loss": 0.7723,
+   "es_macro_f1": 0.5454
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.7529,
+   "es_loss": 0.7726,
+   "es_macro_f1": 0.5605
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.7424,
+   "es_loss": 0.7663,
+   "es_macro_f1": 0.554
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.7761,
+   "es_loss": 0.7561,
+   "es_macro_f1": 0.5412
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.6796,
+   "es_loss": 0.7588,
+   "es_macro_f1": 0.5497
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.7014,
+   "es_loss": 0.7468,
+   "es_macro_f1": 0.5481
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.7437,
+   "es_loss": 0.751,
+   "es_macro_f1": 0.5577
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.9189,
+   "es_loss": 0.7469,
+   "es_macro_f1": 0.5527
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.6282,
+   "es_loss": 0.7439,
+   "es_macro_f1": 0.5491
+  },
+  {
+   "epoch": 18,
+   "train_loss": 0.574,
+   "es_loss": 0.7457,
+   "es_macro_f1": 0.5476
+  },
+  {
+   "epoch": 19,
+   "train_loss": 0.7353,
+   "es_loss": 0.7372,
+   "es_macro_f1": 0.5573
+  },
+  {
+   "epoch": 20,
+   "train_loss": 0.6601,
+   "es_loss": 0.7358,
+   "es_macro_f1": 0.5804
+  },
+  {
+   "epoch": 21,
+   "train_loss": 0.6947,
+   "es_loss": 0.7353,
+   "es_macro_f1": 0.5784
+  },
+  {
+   "epoch": 22,
+   "train_loss": 0.6814,
+   "es_loss": 0.7346,
+   "es_macro_f1": 0.5684
+  },
+  {
+   "epoch": 23,
+   "train_loss": 0.6365,
+   "es_loss": 0.7393,
+   "es_macro_f1": 0.5631
+  },
+  {
+   "epoch": 24,
+   "train_loss": 0.6391,
+   "es_loss": 0.7341,
+   "es_macro_f1": 0.5782
+  },
+  {
+   "epoch": 25,
+   "train_loss": 0.8332,
+   "es_loss": 0.7443,
+   "es_macro_f1": 0.5695
+  },
+  {
+   "epoch": 26,
+   "train_loss": 0.622,
+   "es_loss": 0.7424,
+   "es_macro_f1": 0.5827
+  },
+  {
+   "epoch": 27,
+   "train_loss": 0.5763,
+   "es_loss": 0.7451,
+   "es_macro_f1": 0.5757
+  },
+  {
+   "epoch": 28,
+   "train_loss": 0.6342,
+   "es_loss": 0.7489,
+   "es_macro_f1": 0.5793
+  },
+  {
+   "epoch": 29,
+   "train_loss": 0.629,
+   "es_loss": 0.7498,
+   "es_macro_f1": 0.5803
+  }
+ ],
+ "id": {
+  "n": 186513,
+  "accuracy": 0.9190458573933185,
+  "macro_f1": 0.5503189382426367,
+  "cyclist_as_motorcyclist": 0.023668639053254437,
+  "motorcyclist_as_cyclist": 0.0972972972972973,
+  "bus_as_vehicle": 0.6717021276595745,
+  "vehicle_as_bus": 0.026935920663076894
+ },
+ "ood": {
+  "n": 432570,
+  "accuracy": 0.9318306863629008,
+  "macro_f1": 0.527287386943423,
+  "cyclist_as_motorcyclist": 0.030372347185156946,
+  "motorcyclist_as_cyclist": 0.06940874035989718,
+  "bus_as_vehicle": 0.6522384034519957,
+  "vehicle_as_bus": 0.021509527397424396
+ },
+ "seconds": 439
+}
